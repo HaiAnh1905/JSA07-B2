@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+}
+#container {
+    width: 512px;
+    height: 341.4px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    /* transform: translate(-5%,75%); */
+    align-items: center;
+}
+.item {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin: auto;
+    /* transform: translate(-5%,60%); */
+    border-radius: 100%;
+}

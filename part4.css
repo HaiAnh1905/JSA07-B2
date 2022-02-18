@@ -1,0 +1,14 @@
+#container {
+    width: 40%;
+    margin: auto;
+}
+.title {
+    text-align: center ;
+    width: 100%;
+    font-family: 'Jost', sans-serif;
+
+}
+hr {
+    width: 100px;
+    border: 1px solid rgb(255, 194, 81);
+}   

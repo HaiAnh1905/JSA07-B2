@@ -1,0 +1,18 @@
+.items {
+    width: 100px;
+    height: 150px;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#container {
+    display: flex;
+    width: 50%;
+    height: 400px;
+    border: 2px solid black;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 20px;
+}
