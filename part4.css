@@ -1,14 +1,45 @@
+body {
+    background-color: rgba(245, 245, 245, 0.527);
+}
 #container {
-    width: 40%;
+    width: 50%;
     margin: auto;
 }
-.title {
+
+#title {
+    margin-bottom: 67px;
+}
+
+#title h1{
     text-align: center ;
     width: 100%;
     font-family: 'Jost', sans-serif;
-
+    font-size: 50px;
 }
 hr {
     width: 100px;
     border: 1px solid rgb(255, 194, 81);
 }   
+#content {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid; */
+}
+
+#phone {
+    width: 30%;
+}
+
+#phone img {
+    width: 100%;
+}
+
+#rightSide {
+    padding-left: 30px;
+}
+
+.item {
+    margin-bottom: 30px;
+    font-size: 25px;
+    margin-left: 120px;
+}
