@@ -17,7 +17,7 @@ body {
     font-size: 50px;
 }
 hr {
-    width: 100px;
+    width: 130px;
     border: 1px solid rgb(255, 194, 81);
 }   
 #content {
@@ -27,7 +27,7 @@ hr {
 }
 
 #phone {
-    width: 30%;
+    width: 40%;
 }
 
 #phone img {
@@ -42,4 +42,20 @@ hr {
     margin-bottom: 30px;
     font-size: 25px;
     margin-left: 120px;
+    display: flex;
+    /* justify-content: center; */
+}
+.item img {
+    width: 55px;
+    height: 55px;
+    transform: translateY(50%) ;
+}
+#store {
+    /* border: 1px solid; */
+    margin-left: 120px;
+    display: flex;
+}
+#store img{
+    width: 172px;
+    height: 60px;
 }
