@@ -36,6 +36,7 @@ hr {
 
 #rightSide {
     padding-left: 30px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .item {
@@ -49,6 +50,7 @@ hr {
     width: 55px;
     height: 55px;
     transform: translateY(50%) ;
+    margin-right: 30px;
 }
 #store {
     /* border: 1px solid; */
